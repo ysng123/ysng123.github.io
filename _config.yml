@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Haoyang Tong"
-description              : "Senior undergraduate at UCAS; admitted to the joint PhD program between ZGCA and CASIA."
-repository               : "RayeRen/acad-homepage.github.io"
+description              : "Incoming joint PhD student at ZGCA and CASIA, working on generative models, large language models, and world models."
+repository               : "ysng123/ysng123.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics

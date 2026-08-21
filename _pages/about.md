@@ -17,25 +17,29 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at the School of Artificial Intelligence, University of the Chinese Academy of Sciences. I have been admitted to the joint PhD program between ZGCA and CASIA, advised by professor Ran He in MAIS & NLPR, CASIA. My research interests include 3D Generation, LLM applications, and Reinforce Learning. Most recently, I am focusing on:
+I recently completed my bachelor's degree at the School of Artificial Intelligence, University of Chinese Academy of Sciences. In September 2026, I will begin the joint PhD program between ZGCA and CASIA, advised by Prof. Ran He in MAIS & NLPR, CASIA. My research interests include generative models, large language models, and world models. I am currently focusing on:
 
-- 3D Generation
-- LLM applications in 3D space
-- Reinforce Learning in Generation
+- 3D generation
+- Pixel-space image generation
+- LLM-driven 3D scene generation
 
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 One papers are accepted by AAAI 2026! Congratulations to our co-authors!
+- *2026.08*: &nbsp;🎉 Our paper [Energy-Guided Flow Matching](https://arxiv.org/abs/2608.05811) is now available on arXiv!
+- *2025.11*: &nbsp;🎉 Our paper CoGrad3D was accepted by AAAI 2026!
 
 # 📝 Publications 
 
+- [Energy-Guided Flow Matching](https://arxiv.org/abs/2608.05811), **Haoyang Tong**, Yu He, Fang Li, Lichen Ma, Jingling Fu, Dong Chen, Zhen Chen, Junshi Huang, Jie Cao, **arXiv 2026** (co-first author)
+- [CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation](/pdf/CoGrad3D_AAAI2026.pdf), **Haoyang Tong**, Hongbo Wang, Jin Liu, Qi Wang, Jie Cao, Ran He, **AAAI 2026**
 
-- [CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation](https://ysngfo.github.io/pdf/CoGrad3D_AAAI2026.pdf), **Haoyang Tong**, Hongbo Wang, Jin Liu, Qi Wang, Jie Cao, Ran He, **AAAI 2026**
 
+# 📖 Education
+- *2022.09 - 2026.06*, Bachelor's degree, School of Artificial Intelligence, University of Chinese Academy of Sciences.
+- *2026.09 - 2031.06*, joint PhD program between ZGCA and CASIA.
 
-# 📖 Educations
-- *2022.09 - 2026.06 (now)*, pursuing Bachelor's degree from School of Artificial Intelligence, University of the Chinese Academy of Sciences. 
-- *2026.09 - 2031.06*, admitted to the joint PhD program between ZGCA and CASIA. 
+# 💻 Experience
+- *2026.03 - 2026.09*, Algorithm Development Intern, Platform Product & R&D Center, JD Retail. Working on pixel-level generative modeling.
+- *2023.10 - Present*, Research Intern, MAIS & NLPR, CASIA, advised by Prof. Ran He. Working on 3D generation with 2D diffusion priors.
 
-# 💻 Internships
-I am currently seeking an internship opportunity based in Beijing. If you have any relevant openings, please feel free to reach out to me. Thank you for your time and attention. Here is my [CV](https://ysngfo.github.io/pdf/cv20260202.pdf).
+Here is my [CV](/pdf/cv20260202.pdf).
