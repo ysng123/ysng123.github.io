@@ -55,7 +55,7 @@ redirect_from:
 
     <div class="timeline-list">
       <article class="timeline-row">
-        <div class="institution-mark institution-mark--casia" aria-hidden="true">CA</div>
+        <div class="institution-mark institution-mark--casia" aria-hidden="true"><img src="/assets/images/logos/casia-normalized.png" alt=""></div>
         <div class="timeline-copy">
           <h3>CASIA &amp; ZGCA</h3>
           <p>Joint PhD Program · Advisor: Prof. Ran He</p>
@@ -65,7 +65,7 @@ redirect_from:
       </article>
 
       <article class="timeline-row">
-        <div class="institution-mark institution-mark--ucas" aria-hidden="true">UC</div>
+        <div class="institution-mark institution-mark--ucas" aria-hidden="true"><img src="/assets/images/logos/ucas-normalized.png" alt=""></div>
         <div class="timeline-copy">
           <h3>University of Chinese Academy of Sciences</h3>
           <p>Bachelor's Degree · Artificial Intelligence</p>
@@ -84,9 +84,9 @@ redirect_from:
 
     <div class="timeline-list">
       <article class="timeline-row">
-        <div class="institution-mark institution-mark--jd" aria-hidden="true">JD</div>
+        <div class="institution-mark institution-mark--jd" aria-hidden="true"><img src="/assets/images/logos/jd-normalized.png" alt=""></div>
         <div class="timeline-copy">
-          <h3>JD Retail</h3>
+          <h3>JD.com</h3>
           <p>Algorithm Development Intern</p>
           <span>Pixel-level generative modeling · Platform Product &amp; R&amp;D Center</span>
         </div>
@@ -94,7 +94,7 @@ redirect_from:
       </article>
 
       <article class="timeline-row">
-        <div class="institution-mark institution-mark--casia" aria-hidden="true">AI</div>
+        <div class="institution-mark institution-mark--casia" aria-hidden="true"><img src="/assets/images/logos/casia-normalized.png" alt=""></div>
         <div class="timeline-copy">
           <h3>MAIS &amp; NLPR, CASIA</h3>
           <p>Research Intern · Advisor: Prof. Ran He</p>
@@ -112,6 +112,22 @@ redirect_from:
     </div>
 
     <div class="publication-list">
+      <article class="publication-card">
+        <div class="publication-venue"><strong>AAAI</strong><span>2026</span></div>
+        <div class="publication-visual publication-visual--cograd" aria-hidden="true"><span>CoGrad3D</span></div>
+        <div class="publication-copy">
+          <p class="publication-label">TEXT-TO-3D GENERATION</p>
+          <h3><a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation</a></h3>
+          <p class="publication-authors"><strong>Haoyang Tong</strong>, Hongbo Wang, Jin Liu, Qi Wang, Jie Cao<sup>†</sup>, Ran He</p>
+          <p class="publication-summary">Improving geometric consistency and texture fidelity through adaptive sampling and cross-view gradient fusion.</p>
+          <div class="publication-links">
+            <span class="author-note">First author</span>
+            <a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">Paper ↗</a>
+            <span class="contribution-legend"><sup>†</sup> Corresponding author</span>
+          </div>
+        </div>
+      </article>
+
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
         <div class="publication-visual publication-visual--eg" aria-hidden="true"><span>EG-FM</span></div>
@@ -146,21 +162,6 @@ redirect_from:
         </div>
       </article>
 
-      <article class="publication-card">
-        <div class="publication-venue"><strong>AAAI</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--cograd" aria-hidden="true"><span>CoGrad3D</span></div>
-        <div class="publication-copy">
-          <p class="publication-label">TEXT-TO-3D GENERATION</p>
-          <h3><a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation</a></h3>
-          <p class="publication-authors"><strong>Haoyang Tong</strong>, Hongbo Wang, Jin Liu, Qi Wang, Jie Cao<sup>†</sup>, Ran He</p>
-          <p class="publication-summary">Improving geometric consistency and texture fidelity through adaptive sampling and cross-view gradient fusion.</p>
-          <div class="publication-links">
-            <span class="author-note">First author</span>
-            <a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">Paper ↗</a>
-            <span class="contribution-legend"><sup>†</sup> Corresponding author</span>
-          </div>
-        </div>
-      </article>
     </div>
   </section>
 

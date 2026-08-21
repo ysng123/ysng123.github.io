@@ -555,26 +555,21 @@ body {
   display: grid;
   width: 44px;
   height: 44px;
+  box-sizing: border-box;
   place-items: center;
-  color: #fff;
-  font-family: var(--profile-serif);
-  font-size: 0.75rem;
-  font-weight: 700;
-  border: 1px solid rgba(255, 255, 255, 0.74);
+  padding: 5px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dbe4f1;
   border-radius: 13px;
   box-shadow: 0 6px 14px rgba(41, 61, 92, 0.12);
 }
 
-.institution-mark--casia {
-  background: linear-gradient(145deg, #2d5db5, #7893d0);
-}
-
-.institution-mark--ucas {
-  background: linear-gradient(145deg, #233e82, #506fb3);
-}
-
-.institution-mark--jd {
-  background: linear-gradient(145deg, #d44343, #ef7b67);
+.institution-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .timeline-copy h3 {
