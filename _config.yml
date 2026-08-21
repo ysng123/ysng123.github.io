@@ -21,23 +21,27 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "童昊阳/Haoyang Tong"
-  avatar           : "images/个人照片.jpg"
-  bio              : "CASIA/ZGCA/UCAS"
+  name             : "Haoyang Tong"
+  name_cn          : "童昊阳"
+  avatar           : "images/haoyang-profile-stylized.png"
+  role             : "Incoming PhD Student"
+  affiliation      : "CASIA · ZGCA · UCAS"
+  research         : "Generative Models · LLMs · World Models"
+  cv               : "/pdf/cv20260202.pdf"
   location         : "Beijing, China"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
   email            : "tonghaoyang22@mails.ucas.ac.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  uri              : "https://ysng123.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "ysng123"
   google_plus      :
   keybase          :
   instagram        :
