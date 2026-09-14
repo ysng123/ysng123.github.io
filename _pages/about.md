@@ -121,7 +121,7 @@ redirect_from:
           <a class="venue-rank" href="https://www.ccf.org.cn/Academic_Evaluation/AI/zgjsjxhtjgjxshy/al/" target="_blank" rel="noopener" title="CCF recommended conferences: Category A">CCF-A</a>
           <a class="venue-rank" href="https://portal.core.edu.au/conf-ranks/?by=all&amp;page=1&amp;search=&amp;sort=arank&amp;source=CORE2023" target="_blank" rel="noopener" title="CORE 2023 conference ranking: A*">CORE A*</a>
         </div>
-        <div class="publication-visual publication-visual--cograd" aria-hidden="true"><span>CoGrad3D</span></div>
+        <a class="publication-visual" href="https://ojs.aaai.org/index.php/AAAI/article/view/37915" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/cograd.png" alt="CoGrad3D pipeline overview" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">TEXT-TO-3D GENERATION</p>
           <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/37915" target="_blank" rel="noopener">CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation</a></h3>
@@ -139,7 +139,7 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--eg" aria-hidden="true"><span>EG-FM</span></div>
+        <a class="publication-visual" href="https://arxiv.org/abs/2608.05811" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/eg.png" alt="Energy-Guided Flow Matching framework" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">PIXEL-SPACE GENERATION</p>
           <h3><a href="https://arxiv.org/abs/2608.05811" target="_blank" rel="noopener">Energy-Guided Flow Matching</a></h3>
@@ -157,7 +157,7 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--ood" aria-hidden="true"><span>Obs. Diffusion</span></div>
+        <a class="publication-visual" href="https://arxiv.org/abs/2608.21885" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/ood.png" alt="Observation Operator Diffusion framework" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">PIXEL-SPACE GENERATION</p>
           <h3><a href="https://arxiv.org/abs/2608.21885" target="_blank" rel="noopener">Pixel-Space Diffusion via Observation Operators</a></h3>
@@ -171,7 +171,7 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--ifan" aria-hidden="true"><span>iFAN</span></div>
+        <a class="publication-visual" href="https://arxiv.org/abs/2608.03216" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/ifan.png" alt="iFAN method overview" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">IMAGE SEGMENTATION</p>
           <h3><a href="https://arxiv.org/abs/2608.03216" target="_blank" rel="noopener">iFAN: Inference-Aware Learning for Plain Mask Transformers</a></h3>
@@ -187,7 +187,7 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--hallo" aria-hidden="true"><span>Hallo4D</span></div>
+        <a class="publication-visual" href="https://arxiv.org/abs/2607.12752" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/hallo.png" alt="Hallo4D spatiotemporal consistency pipeline" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">3D &amp; 4D GENERATION</p>
           <h3><a href="https://arxiv.org/abs/2607.12752" target="_blank" rel="noopener">Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation</a></h3>
@@ -201,7 +201,7 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
-        <div class="publication-visual publication-visual--liwi" aria-hidden="true"><span>LiWi</span></div>
+        <a class="publication-visual" href="https://arxiv.org/abs/2605.14552" target="_blank" rel="noopener" aria-label="Read paper"><img src="/assets/images/pipelines/liwi.png" alt="LiWi agent-driven data decomposition pipeline" loading="lazy"></a>
         <div class="publication-copy">
           <p class="publication-label">LAYERED IMAGE GENERATION</p>
           <h3><a href="https://arxiv.org/abs/2605.14552" target="_blank" rel="noopener">LiWi: Layering in the Wild</a></h3>
