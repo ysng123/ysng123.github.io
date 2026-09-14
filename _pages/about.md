@@ -55,7 +55,10 @@ redirect_from:
 
     <div class="timeline-list">
       <article class="timeline-row">
-        <div class="institution-mark institution-mark--casia" aria-hidden="true"><img src="/assets/images/logos/casia-normalized.png" alt=""></div>
+        <div class="institution-marks" aria-hidden="true">
+          <div class="institution-mark institution-mark--casia"><img src="/assets/images/logos/casia-normalized.png" alt=""></div>
+          <div class="institution-mark institution-mark--zgca"><img src="/assets/images/logos/zgca-emblem.jpg" alt=""></div>
+        </div>
         <div class="timeline-copy">
           <h3>CASIA &amp; ZGCA</h3>
           <p>Joint PhD Program · Advisor: Prof. Ran He</p>
@@ -87,7 +90,7 @@ redirect_from:
         <div class="institution-mark institution-mark--jd" aria-hidden="true"><img src="/assets/images/logos/jd-normalized.png" alt=""></div>
         <div class="timeline-copy">
           <h3>JD.com</h3>
-          <p>Algorithm Development Intern</p>
+          <p>Research Intern</p>
           <span>Pixel-level generative modeling · Platform Product &amp; R&amp;D Center</span>
         </div>
         <time>2026.03 — 2026.09</time>
@@ -113,15 +116,21 @@ redirect_from:
 
     <div class="publication-list">
       <article class="publication-card">
-        <div class="publication-venue"><strong>AAAI</strong><span>2026</span></div>
+        <div class="publication-venue">
+          <strong>AAAI</strong><span>2026</span>
+          <a class="venue-rank" href="https://www.ccf.org.cn/Academic_Evaluation/AI/zgjsjxhtjgjxshy/al/" target="_blank" rel="noopener" title="CCF recommended conferences: Category A">CCF-A</a>
+          <a class="venue-rank" href="https://portal.core.edu.au/conf-ranks/?by=all&amp;page=1&amp;search=&amp;sort=arank&amp;source=CORE2023" target="_blank" rel="noopener" title="CORE 2023 conference ranking: A*">CORE A*</a>
+        </div>
         <div class="publication-visual publication-visual--cograd" aria-hidden="true"><span>CoGrad3D</span></div>
         <div class="publication-copy">
           <p class="publication-label">TEXT-TO-3D GENERATION</p>
-          <h3><a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation</a></h3>
+          <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/37915" target="_blank" rel="noopener">CoGrad3D: Spatially-Coupled Timestep Optimization with Orthogonal Gradient Fusion for 3D Generation</a></h3>
           <p class="publication-authors"><strong>Haoyang Tong</strong>, Hongbo Wang, Jin Liu, Qi Wang, Jie Cao<sup>†</sup>, Ran He</p>
           <p class="publication-summary">Improving geometric consistency and texture fidelity through adaptive sampling and cross-view gradient fusion.</p>
           <div class="publication-links">
             <span class="author-note">First author</span>
+            <span class="contribution-legend">AAAI 40(12), 9539–9547</span>
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37915" target="_blank" rel="noopener">Proceedings ↗</a>
             <a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener">Paper ↗</a>
             <span class="contribution-legend"><sup>†</sup> Corresponding author</span>
           </div>
@@ -148,6 +157,50 @@ redirect_from:
 
       <article class="publication-card">
         <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
+        <div class="publication-visual publication-visual--ood" aria-hidden="true"><span>Obs. Diffusion</span></div>
+        <div class="publication-copy">
+          <p class="publication-label">PIXEL-SPACE GENERATION</p>
+          <h3><a href="https://arxiv.org/abs/2608.21885" target="_blank" rel="noopener">Pixel-Space Diffusion via Observation Operators</a></h3>
+          <p class="publication-authors">Shaojie Guo, Lichen Ma, <strong>Haoyang Tong</strong>, Yu He, Zipeng Guo, Xiaoan Liu, Feng Yan, Yu Guo, Fei Wang, Junshi Huang, Yan Wang</p>
+          <p class="publication-summary">Time-dependent observation operators align diffusion supervision and decoder refinement with coarse-to-fine image recovery.</p>
+          <div class="publication-links">
+            <a href="https://arxiv.org/abs/2608.21885" target="_blank" rel="noopener">arXiv ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication-card">
+        <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
+        <div class="publication-visual publication-visual--ifan" aria-hidden="true"><span>iFAN</span></div>
+        <div class="publication-copy">
+          <p class="publication-label">IMAGE SEGMENTATION</p>
+          <h3><a href="https://arxiv.org/abs/2608.03216" target="_blank" rel="noopener">iFAN: Inference-Aware Learning for Plain Mask Transformers</a></h3>
+          <p class="publication-authors">Fang Li<sup>*</sup>, Yu He<sup>*</sup>, <strong>Haoyang Tong</strong>, Lichen Ma, Jingling Fu, Wenxiao Fan, Tongxuan Liu, Luohang Liu, Ke Zhang, Junshi Huang<sup>†</sup></p>
+          <p class="publication-summary">Quality-aware query ranking and cross-layer self-distillation improve mask transformers while retaining efficient final-layer inference.</p>
+          <div class="publication-links">
+            <a href="https://arxiv.org/abs/2608.03216" target="_blank" rel="noopener">arXiv ↗</a>
+            <a href="https://neesky163.github.io/iFAN/" target="_blank" rel="noopener">Project Page ↗</a>
+            <span class="contribution-legend"><sup>*</sup> Equal contribution · <sup>†</sup> Corresponding author</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication-card">
+        <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
+        <div class="publication-visual publication-visual--hallo" aria-hidden="true"><span>Hallo4D</span></div>
+        <div class="publication-copy">
+          <p class="publication-label">3D &amp; 4D GENERATION</p>
+          <h3><a href="https://arxiv.org/abs/2607.12752" target="_blank" rel="noopener">Hallo4D: Multi-Modal Hallucination Mitigation for Consistent Spatio-Temporal Generation</a></h3>
+          <p class="publication-authors">Hongbo Wang, Huaibo Huang, Jie Cao, Jin Liu, <strong>Haoyang Tong</strong>, Ran He</p>
+          <p class="publication-summary">Multimodal language models detect and guide corrections of spatial and temporal inconsistencies in 3D and 4D generation.</p>
+          <div class="publication-links">
+            <a href="https://arxiv.org/abs/2607.12752" target="_blank" rel="noopener">arXiv ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="publication-card">
+        <div class="publication-venue"><strong>arXiv</strong><span>2026</span></div>
         <div class="publication-visual publication-visual--liwi" aria-hidden="true"><span>LiWi</span></div>
         <div class="publication-copy">
           <p class="publication-label">LAYERED IMAGE GENERATION</p>
@@ -167,6 +220,6 @@ redirect_from:
 
   <footer class="profile-footer">
     <span>© 2026 Haoyang Tong</span>
-    <span>Last updated August 2026</span>
+    <span>Last updated September 2026</span>
   </footer>
 </div>
