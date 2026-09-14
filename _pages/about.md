@@ -22,7 +22,7 @@ redirect_from:
     </div>
 
     <div class="hero-actions">
-      <a class="button button--primary" href="/pdf/cv20260202.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+      <a class="button button--primary" href="/pdf/cv.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
       <a class="button button--secondary" href="mailto:tonghaoyang22@mails.ucas.ac.cn">Get in touch</a>
     </div>
   </header>
