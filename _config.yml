@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haoyang Tong"
-description              : "Incoming joint PhD student at ZGCA and CASIA, working on generative models, large language models, and world models."
+description              : "Joint PhD student at ZGCA and CASIA, working on generative models, large language models, and world models."
 repository               : "ysng123/ysng123.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Haoyang Tong"
   name_cn          : "童昊阳"
   avatar           : "images/haoyang-profile-stylized.png"
-  role             : "Incoming PhD Student"
+  role             : "PhD Student"
   affiliation      : "CASIA · ZGCA · UCAS"
   research         : "Generative Models · LLMs · World Models"
   cv               : "/pdf/cv.pdf"
@@ -69,6 +69,10 @@ include:
   - _pages
   - files
 exclude:
+  - .local
+  - Gemfile.local
+  - Gemfile.local.lock
+  - start-local.ps1
   - docs
   - google_scholar_crawler
   - "*.sublime-project"

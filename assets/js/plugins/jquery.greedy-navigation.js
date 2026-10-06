@@ -14,6 +14,9 @@ var breaks = [];
 
 function updateNav() {
 
+  // The current profile uses a flex navigation without the legacy overflow menu.
+  if (!$nav.length || !$btn.length || !$vlinks.length || !$hlinks.length) return;
+
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
 
   // The visible list is overflowing the nav

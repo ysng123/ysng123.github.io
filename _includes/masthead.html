@@ -1,13 +1,17 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="profile-nav" class="profile-nav" aria-label="Primary navigation">
+      <nav id="profile-nav" class="profile-nav" aria-label="Primary navigation" data-zh-aria-label="主导航">
         <ul class="profile-nav__links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}" aria-label="Haoyang Tong homepage"><span class="nav-monogram">HT</span><span>Haoyang Tong</span></a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/' | relative_url }}" aria-label="Haoyang Tong homepage" data-zh-aria-label="童昊阳的个人主页"><span class="nav-monogram">HT</span><span data-zh="童昊阳">Haoyang Tong</span></a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}" data-zh="{{ link.title_zh | escape }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+        <div class="language-switch" role="group" aria-label="Language / 语言" hidden>
+          <button type="button" data-language="en" lang="en" aria-pressed="true">English</button>
+          <button type="button" data-language="zh" lang="zh-CN" aria-pressed="false">中文</button>
+        </div>
       </nav>
     </div>
   </div>

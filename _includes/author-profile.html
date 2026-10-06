@@ -6,36 +6,36 @@
 
 <div itemscope itemtype="https://schema.org/Person" class="profile_box">
   <div class="author__avatar">
-    <img src="{{ author.avatar | relative_url }}" alt="Portrait of {{ author.name }}" itemprop="image">
+    <img src="{{ author.avatar | relative_url }}" alt="Portrait of {{ author.name }}" data-zh-alt="童昊阳的肖像" itemprop="image">
   </div>
 
   <div class="author__content">
-    <p class="profile-kicker">GENERATIVE AI · 3D</p>
-    <h1 class="author__name" itemprop="name">{{ author.name }}</h1>
-    {% if author.name_cn %}<p class="author__name-cn">{{ author.name_cn }}</p>{% endif %}
-    {% if author.role %}<p class="author__role">{{ author.role }}</p>{% endif %}
-    {% if author.affiliation %}<p class="author__affiliation">{{ author.affiliation }}</p>{% endif %}
+    <p class="profile-kicker" data-zh="生成式人工智能 · 三维">GENERATIVE AI · 3D</p>
+    <h1 class="author__name" itemprop="name" data-zh="童昊阳">{{ author.name }}</h1>
+    {% if author.name_cn %}<p class="author__name-cn" data-zh="Haoyang Tong">{{ author.name_cn }}</p>{% endif %}
+    {% if author.role %}<p class="author__role" data-zh="博士生">{{ author.role }}</p>{% endif %}
+    {% if author.affiliation %}<p class="author__affiliation" data-zh="中科院自动化所 · 中关村学院 · 国科大">{{ author.affiliation }}</p>{% endif %}
   </div>
 
-  <div class="profile-links" aria-label="Contact and profile links">
+  <div class="profile-links" aria-label="Contact and profile links" data-zh-aria-label="联系方式与个人资料">
     {% if author.email %}
-      <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span>Email</span></a>
+      <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span data-zh="邮箱">Email</span></a>
     {% endif %}
     {% if author.github %}
       <a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span>GitHub</span></a>
     {% endif %}
     {% if author.googlescholar %}
-      <a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span>Scholar</span></a>
+      <a href="{{ author.googlescholar }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span data-zh="学术主页">Scholar</span></a>
     {% endif %}
     {% if author.cv %}
-      <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i><span>CV</span></a>
+      <a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i><span data-zh="简历">CV</span></a>
     {% endif %}
   </div>
 
   <div class="profile-note">
     <span class="profile-note__dot" aria-hidden="true"></span>
-    <p><strong>Incoming PhD student</strong><br>Starting September 2026</p>
+    <p data-zh="&lt;strong&gt;博士生&lt;/strong&gt;&lt;br&gt;2026 年 9 月入学"><strong>PhD Student</strong><br>Since September 2026</p>
   </div>
 
-  {% if author.research %}<p class="profile-research">{{ author.research }}</p>{% endif %}
+  {% if author.research %}<p class="profile-research" data-zh="生成模型 · 大语言模型 · 世界模型">{{ author.research }}</p>{% endif %}
 </div>

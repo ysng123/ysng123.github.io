@@ -24,6 +24,8 @@ Some examples:
 - [Personal Homepage of the author](https://rayeren.github.io/)
 
 ## Key Features
+
+- **English / 中文**: The homepage defaults to English. The navigation language switch remembers a visitor's choice locally. English remains available without JavaScript. To maintain translations, edit each element's English HTML and its `data-zh` attribute together; use escaped HTML in attribute values. Navigation labels are paired in `_data/navigation.yml`. Accessible labels use `data-zh-aria-label`, `data-zh-alt`, or `data-zh-title`. Formal paper titles and author lists retain their original language.
 - **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
 - **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
 - **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
