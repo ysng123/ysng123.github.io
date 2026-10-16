@@ -22,7 +22,6 @@ redirect_from:
     </div>
 
     <div class="hero-actions">
-      <a class="button button--primary" href="/pdf/cv.pdf" target="_blank" rel="noopener" data-zh="查看简历 &lt;span aria-hidden=&quot;true&quot;&gt;↗&lt;/span&gt;">View CV <span aria-hidden="true">↗</span></a>
       <a class="button button--secondary" href="mailto:tonghaoyang22@mails.ucas.ac.cn" data-zh="联系我">Get in touch</a>
     </div>
   </header>
@@ -131,7 +130,6 @@ redirect_from:
             <span class="author-note" data-zh="第一作者">First author</span>
             <span class="contribution-legend">AAAI 40(12), 9539–9547</span>
             <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37915" target="_blank" rel="noopener" data-zh="会议论文集 ↗">Proceedings ↗</a>
-            <a href="/pdf/CoGrad3D_AAAI2026.pdf" target="_blank" rel="noopener" data-zh="论文 ↗">Paper ↗</a>
             <span class="contribution-legend" data-zh="&lt;sup&gt;†&lt;/sup&gt; 通讯作者"><sup>†</sup> Corresponding author</span>
           </div>
         </div>
